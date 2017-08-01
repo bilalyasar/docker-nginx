@@ -9,5 +9,4 @@ spec:
   - port: 80
   selector:
     app: example
-  externalIPs: 
-    - 10.128.0.2
+  type: LoadBalancer
